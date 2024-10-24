@@ -22,14 +22,17 @@ border: 1px solid orange; border-radius: 20px; border-style:dotted;
 #print, .container{ color: white; font-variant: small-caps; font-family: verdana;
     display: grid;
     grid-template-columns: 120px 120px 120px;
-    gap: 20px;
-    padding-top: 10px;
-    padding-left: 102px;
+    gap: 0px;
+    padding-top: 20px;
+    justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
 }
  
- .addi {background-color: green; border: none; border-radius: 25px; color: white; font-family: verdana; font-weight: bold; cursor: pointer;}
+ .addi {background-color: green; border: none; border-radius: 25px; color: white; font-family: verdana; font-weight: bold; cursor: pointer; width: 80px;}
 
- .delet{
+ .delet{ width: 80px;
     background-color: red; border: none; border-radius: 25px; color: white; font-family: verdana; font-weight: bold;
     cursor: pointer; 
  }
@@ -40,3 +43,7 @@ border: 1px solid orange; border-radius: 20px; border-style:dotted;
  }
 
  .addi:hover{border: 2px solid yellow;transition: 2s ease-in ;}
+
+ @media (max-width: 600px){
+
+ }
