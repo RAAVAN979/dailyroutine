@@ -1,0 +1,41 @@
+body{
+    padding: 0;
+    margin: 0;
+    all: unset;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+    #name{ display: flex;
+        justify-content: center;
+    }
+h1{
+    text-align: center;
+    color: white; font-family: Verdana; font-style:oblique; font-variant: small-caps; cursor: pointer;
+}
+
+input{ font-family: verdana; text-align: center;
+border: 1px solid orange; border-radius: 20px; border-style:dotted;
+}
+
+#print, .container{ color: white; font-variant: small-caps; font-family: verdana;
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    gap: 20px;
+    padding-top: 10px;
+    padding-left: 102px;
+}
+ 
+ .addi {background-color: green; border: none; border-radius: 25px; color: white; font-family: verdana; font-weight: bold; cursor: pointer;}
+
+ .delet{
+    background-color: red; border: none; border-radius: 25px; color: white; font-family: verdana; font-weight: bold;
+    cursor: pointer; 
+ }
+
+ .delet:hover { height: 30px;
+    border: 2px solid yellow;
+    transition: 2s ease-in;
+ }
+
+ .addi:hover{border: 2px solid yellow;transition: 2s ease-in ;}
