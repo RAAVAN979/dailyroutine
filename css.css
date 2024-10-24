@@ -5,6 +5,7 @@ body{
     background-color: black;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
     #name{ display: flex;
         justify-content: center;
