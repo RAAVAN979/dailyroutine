@@ -22,12 +22,13 @@ border: 1px solid orange; border-radius: 20px; border-style:dotted;
 #print, .container{ color: white; font-variant: small-caps; font-family: verdana;
     display: grid;
     grid-template-columns: 120px 120px 120px;
-    gap: 0px;
+    gap: 10px;
     padding-top: 20px;
     justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
   align-items: center;
+  row-gap: 10px;
 }
  
  .addi {background-color: green; border: none; border-radius: 25px; color: white; font-family: verdana; font-weight: bold; cursor: pointer; width: 80px;}
