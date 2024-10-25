@@ -17,6 +17,8 @@
         rout += html;
 
         document.getElementById('print').innerHTML = rout;})
+        
+        saveArray();
 
         };
 
@@ -26,6 +28,7 @@
 
     aDd.addEventListener('click', () => {
         addCon();
+
     });
 
     function addCon () {
